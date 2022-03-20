@@ -1,0 +1,23 @@
+{
+  "name": "rival",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/node-fetch": "^2.6",
+    "@types/yargs": "^17.0.10",
+    "prettier": "^2.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
